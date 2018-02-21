@@ -9,6 +9,6 @@ Vled = 1.8v, this is the voltage drop accross a standard Red LED.
 Imax = 12mA, this is safe maximum current that can be drawn from the GPIO of ESP8266 thing.
 
 R, Current limiting resistance = (Vgpio - Vled)/Imax
-							   = (3.3v - 1.8v)/12mA
-							   = (1.5 * 1000)/12 ohms
-							   = 125 ohms ~ 150 ohms 
+			       = (3.3v - 1.8v)/12mA
+			       = (1.5 * 1000)/12 ohms
+			       = 125 ohms ~ 150 ohms 
